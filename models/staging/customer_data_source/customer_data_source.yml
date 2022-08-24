@@ -7,7 +7,7 @@ sources:
     database: steve_d_raw_data
     schema: SAMPLE_CUSTOMER_DATA
     tables:
-      - name: CUSTOMER_DIM
+      - name: customer_dim
         description: A list of a dim table full of custom infromation
-      - name: PURCHASES_FCT
+      - name: purchases_fct
         description: sample fact table for customer purchases
