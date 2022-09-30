@@ -3,5 +3,5 @@
 
 Select 
     'this is great!' as my_frist_column,
-    1/56 as a_simple_calculation,
+    1/565 as a_simple_calculation,
     current_timestamp() as current_time_ts
