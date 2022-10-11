@@ -2,5 +2,5 @@
 
 Select 
     *,
-    12
+    12 as new_column
 from {{ ref('my_first_model') }}
