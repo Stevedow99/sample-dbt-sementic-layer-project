@@ -1,0 +1,13 @@
+version: 2
+
+
+sources:
+  - name: customer_data_source
+    description: Sample customer data used for demos
+    database: steve_d_raw_data
+    schema: SAMPLE_CUSTOMER_DATA
+    tables:
+      - name: customer_dim
+        description: A list of a dim table full of custom infromation
+      - name: purchases_fct
+        description: sample fact table for customer purchases
