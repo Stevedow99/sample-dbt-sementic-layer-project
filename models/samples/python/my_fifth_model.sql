@@ -1,4 +1,4 @@
 Select 
 *,
-1 as new_column_num
+2 as another_new_column
 from {{ ref('my_fourth_model') }}
