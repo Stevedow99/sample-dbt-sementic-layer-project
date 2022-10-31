@@ -1,6 +1,4 @@
 import random
-import snowflake.snowpark.functions as f
-from snowflake.snowpark.functions import col, iff, lit
 
 def model(dbt, session):
     
