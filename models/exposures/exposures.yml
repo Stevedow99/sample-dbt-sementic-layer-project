@@ -17,7 +17,7 @@ exposures:
     type: dashboard 
     
     # this is just a link to the thing itself for click through from documentation
-    url: https://app.mode.com/dbt_labs_mode_tutorials/reports/f30ea875263d
+    url: 'https://10az.online.tableau.com/#/site/testingdbtlabstableau/views/CompanySalesDashboard/MonthlyGrossRevenueDashboard?:iid=2'
     
     # convenience feature - relative scale of {high, medium, low}
     maturity: high
