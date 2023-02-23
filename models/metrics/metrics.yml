@@ -1,0 +1,18 @@
+
+version: 2
+
+metrics:
+  - name: revenue
+    label: Revenue
+    model: ref('fct_order_items')
+    description: "Revenue from all orders"
+
+    type: sum
+    sql: gross_item_sales_amount
+
+    timestamp: order_date
+    time_grains: [month, quarter, year]
+
+    dimensions:
+      - region_name
+      - nation_key
