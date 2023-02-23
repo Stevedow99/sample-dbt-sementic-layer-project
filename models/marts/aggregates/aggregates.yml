@@ -8,9 +8,21 @@ models:
     columns:
       - name: order_month
         description: The month the order was placed
+
+
+
+  - name: monthly_net_profit
+    description: The monthly net profit of the company
+
+
+  - name: revenue_roll_up
+    description: A custom roll up of the companies revenue
+    columns:
+      - name: order_month
+        description: The month the order was placed
         tests:
           - not_null
 
 
-      - name: gross_revenue
-        description: the gross revenue generated for the given line item
+
+      
