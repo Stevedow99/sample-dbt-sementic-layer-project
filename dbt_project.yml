@@ -69,6 +69,11 @@ models:
         +materialized: table
         +schema: aggregate_tables
 
+    metrics:
+      +tags:
+        - "revenue metrics"
+        - "updated daily"
+
     
 seeds:
   tpch:
