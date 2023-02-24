@@ -1,7 +1,7 @@
 
 select * 
 from {{ metrics.calculate(
-    metric('revenue'),
+    metric('gross_revenue'),
     grain='month',
     dimensions=['region_name']
 ) }}

@@ -33,6 +33,7 @@ dim_customers as (
 final as (
     select 
         dim_customers.region as region_name,
+        dim_customers.nation as nation,
         order_item.order_item_key,
         order_item.order_key,
         order_item.order_date,
@@ -70,7 +71,8 @@ final as (
             on order_item.customer_key = dim_customers.customer_key
 )
 select 
-    *
+    *,
+    (gross_item_sales_amount) * (uniform(.01, .90, random()) ) as item_cogs
 from
     final
 order by
