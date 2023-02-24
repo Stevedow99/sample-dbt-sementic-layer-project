@@ -17,7 +17,7 @@ exposures:
     type: dashboard 
     
     # this is just a link to the thing itself for click through from documentation
-    url: https://app.mode.com/dbt_labs_mode_tutorials/reports/f30ea875263d
+    url: https://dbt-labs.thoughtspot.cloud/#/pinboard/44b07a14-23c5-4008-9382-6e95b25c328e
     
     # convenience feature - relative scale of {high, medium, low}
     maturity: high
