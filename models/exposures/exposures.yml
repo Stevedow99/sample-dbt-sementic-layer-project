@@ -29,5 +29,4 @@ exposures:
     
     # IMPORTANT: determines the lineage relationship of the exposure construct to the rest of your DAGs
     depends_on:
-      - ref('monthly_gross_revenue')
-      - ref('monthly_net_profit')
+      - ref('curated_revenue_table')
